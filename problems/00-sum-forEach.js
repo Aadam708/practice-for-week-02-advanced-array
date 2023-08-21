@@ -13,8 +13,16 @@ console.log(sumForEach([])); // 0
 
 let sumForEach = function(arr) {
   // Your code here
-};
+  let sum = 0
+  arr.forEach(function(ele,i) {
 
+    sum +=ele
+
+  })
+
+  return sum
+};
+console.log(sumForEach([4, 3, -1, 10])); // 16
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
